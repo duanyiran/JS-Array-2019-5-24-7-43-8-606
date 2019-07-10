@@ -11,11 +11,16 @@ var a = [1, 2, 3, 4, 5];
 // TODO should output [2,4,6,8,10]
 
 
+
 // 编写程序，按下面的要求输出结果。
 var colors = ["Red", "Green", "White", "Black"];
 //TODO case 1 output: 'Red Green White Black'
 // case 2 output: 'Red+Green+White+Black'
 // case 3 output: 'Red,Green,White,Black'
+document.write(colors[0]+" "+colors[1]+" "+colors[2]+" "+colors[3])
+document.write(colors[0]+"+"+colors[1]+"+"+colors[2]+"+"+colors[3])
+document.write(colors)
+
 
 
 // 编写程序，将下面数组中的数字按从大到小的顺序排序。
